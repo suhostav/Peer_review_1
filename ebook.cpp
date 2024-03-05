@@ -71,7 +71,7 @@ void GetInput(EBook& ebook, std::istream& in){
         }
     }
 }
-
+ 
 int main(){
     EBook ebook{cout};
     GetInput(ebook, cin);
